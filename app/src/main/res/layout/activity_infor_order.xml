@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#E5FFFF"
     tools:context=".activity.InforOrder" >
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/orange"
+        android:background="#3CA6A6"
         app:titleMarginStart="60dp"
         app:navigationIcon="@drawable/ic_arrow_back_white"
-        app:titleTextColor="@color/white"
+        app:titleTextColor="#F5FBEF"
         app:title="Thông tin đặt hàng"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme" />
@@ -143,6 +144,7 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_arrow_forward"
         android:background="@drawable/gradient_btnthanhtoan"
+        android:textColor="#F5FBEF"
         android:textSize="17dp"
         android:text="Xác nhận"/>
 

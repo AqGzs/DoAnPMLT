@@ -4,23 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E5FFFF"
     android:orientation="vertical"
     tools:context=".activity.SearchActivity">
+
     <androidx.appcompat.widget.Toolbar
-        app:titleMarginStart="100dp"
-        app:navigationIcon="@drawable/ic_arrow_back_white"
-        android:background="#E64E07"
-        app:titleTextColor="@color/white"
         android:id="@+id/toolbarsearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:title="@string/app_name">
+        android:background="#3CA6A6"
+        app:navigationIcon="@drawable/ic_arrow_back_white"
+        app:title="@string/app_name"
+        app:titleMarginStart="100dp"
+        app:titleTextColor="#F5FBEF">
+
         <androidx.appcompat.widget.SearchView
             android:id="@+id/sv_books"
-            android:layout_gravity="end"
-            android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp">
 
         </androidx.appcompat.widget.SearchView>
     </androidx.appcompat.widget.Toolbar>
